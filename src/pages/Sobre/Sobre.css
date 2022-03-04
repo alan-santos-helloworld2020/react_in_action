@@ -1,0 +1,39 @@
+.containerSobre {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 95vh;
+  color: rgb(0, 25, 48);
+}
+.card {
+  height: 50vh;
+  width: 30%;
+  display: grid;
+  grid-template-rows: 10% 90%;
+  gap: 5px;
+}
+
+.headerCard {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: rgb(78, 78, 78);
+  
+}
+.bodyCard {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(247, 247, 247);
+}
+@media screen and (max-width: 600px) {
+  .card {
+    height: 60vh;
+    width: 90%;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    gap: 5px;
+  }
+}

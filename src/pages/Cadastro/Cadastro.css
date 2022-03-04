@@ -1,0 +1,85 @@
+.containerCadastro {
+  height: 93vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardCadastro {
+  width: 40%;
+  display: grid;
+  grid-template-rows: 10% 90%;
+  gap: 15px;
+}
+
+.headerCardCadastro {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.bodyCardCadastro {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(197, 197, 197);
+  margin: 5px;
+}
+
+input {
+  width: 100%;
+  border: none;
+  outline-style: none;
+  font-size: medium;
+}
+.btn-field {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin: 5px;
+}
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 3px;
+  border-radius: 3px;
+  background-color: rgb(43, 116, 253);
+  border: 1px solid rgb(207, 207, 207);
+  color: aliceblue;
+}
+button span {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.erro-message{
+  color: brown;
+}
+
+@media screen and (max-width: 500px) {
+  .containerCadastro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 85vh;
+  }
+
+  .cardCadastro {
+    width: 90%;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    gap: 15px;
+  }
+}
